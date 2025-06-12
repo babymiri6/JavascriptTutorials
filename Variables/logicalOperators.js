@@ -41,3 +41,20 @@ if(!isSunny){
 else{
     console.log('It is SUNNY');
 }
+
+//  = ASSIGNMENT OPERATOR
+//  == COMPARISON OPERATOR(compare if values are equal)
+//  === STRICT EQUALITY Operator (Compare if values & datatype are equal)
+// != INEQUALITY OPERATOR
+// !== STRICT INEQUALITY OPERATOR
+
+const PI = 3.14;
+
+if (PI == "3.14"){
+    console.log("That is Pi");
+}
+else{
+    console.log("That is not Pi");
+}
+// JAVASCRIPT will output TRUE because we are
+//  not concerned about the datatype.
