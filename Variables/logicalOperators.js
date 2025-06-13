@@ -48,6 +48,8 @@ else{
 // != INEQUALITY OPERATOR
 // !== STRICT INEQUALITY OPERATOR
 
+
+//EQUALITY
 // const PI = 3.14;
 
 // if (PI == "3.14"){
@@ -59,13 +61,25 @@ else{
 // JAVASCRIPT will output TRUE because we are
 //  not concerned about the datatype.
 
- const PI = 3.14;
+//STRICT EQUALITY
+//  const PI = 3.14;
 
-if (PI === "3.14"){
-    console.log("That is Pi");
-}
-else{
-    console.log("That is not Pi");
-}
+// if (PI === "3.14"){
+//     console.log("That is Pi");
+// }
+// else{
+//     console.log("That is not Pi");
+// }
 // JAVASCRIPT will output FALSE because we are
 // concerned about the datatype too.
+
+//INEQUALITY
+ const PI = 3.14;
+
+if (PI != "3.14"){
+    console.log("That is not Pi");
+}
+else{
+    console.log("That is Pi");
+}
+
