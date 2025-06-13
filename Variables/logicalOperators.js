@@ -73,10 +73,20 @@ else{
 // JAVASCRIPT will output FALSE because we are
 // concerned about the datatype too.
 
-//INEQUALITY
+//INEQUALITY - not concerned about datatypes
+//  const PI = 3.14;
+
+// if (PI != "3.14"){
+//     console.log("That is not Pi");
+// }
+// else{
+//     console.log("That is Pi");
+// }
+
+// STRICT INEQUALITY - concerned about datatypes
  const PI = 3.14;
 
-if (PI != "3.14"){
+if (PI !== "3.14"){
     console.log("That is not Pi");
 }
 else{
