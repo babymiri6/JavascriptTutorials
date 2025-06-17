@@ -13,3 +13,6 @@ else if (hour >= 12 && hour < 17){
 else{
     console.log("Good evening!");
 }
+
+// NB you can get rid of the curly brackets to make the 
+// code clean since we are dealing with a single statement
