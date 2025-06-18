@@ -4,4 +4,8 @@
 //WRITING AN ELSE IF STATEMENT then writing the same
 // logic with a SWITCH STATEMENT
 
-let day ="pizza";
+let day = 7;
+
+if(day = 1){
+    console.log("Monday");
+}
