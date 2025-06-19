@@ -12,3 +12,6 @@ if(day = 1){
 else if (day = 2){
     console.log("Tuesday");
 }
+else if (day = 3){
+    console.log("Wednesday");
+}
