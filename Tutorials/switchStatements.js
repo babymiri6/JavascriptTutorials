@@ -18,3 +18,6 @@ else if (day = 3){
 else if (day = 4){
     console.log("Thursday");
 }
+else if (day = 5){
+    console.log("Friday");
+}
