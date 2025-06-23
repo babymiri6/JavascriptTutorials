@@ -19,12 +19,20 @@ let username = "";
 //DON'T RUN IF USERNAME NAME VARIABLE IS EMPTY.
 
 //How to avoid the infinite loop
-while(username === "" || username === null){
-    username = window.prompt(`Enter your name`)
-}
-console.log(`Hello ${username}`);
+// while(username === "" || username === null){
+//     username = window.prompt(`Enter your name`)
+// }
+// console.log(`Hello ${username}`);
 
 // "username === null" will prevent you from clicking cancel in 
 // the window prompt. You must enter something.
 
-// - another variation of a while loop
+//DO WHILE - another variation of a while loop
+// Its logic - do the code first then check the 
+//Condition at the end
+
+do{
+    username = window.prompt(`Enter your name`)
+}while(username === "" || username === null)
+    
+console.log(`Hello ${username}`);
