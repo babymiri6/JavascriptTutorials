@@ -1,6 +1,6 @@
 // While loop - repeat some code WHILE some condition is true
 
-let username = "";
+// let username = "";
 
 // if(username === ""){
 //     console.log(`You didn't enter your name`);
@@ -31,8 +31,18 @@ let username = "";
 // Its logic - do the code first then check the 
 //Condition at the end
 
-do{
-    username = window.prompt(`Enter your name`)
-}while(username === "" || username === null)
-    
-console.log(`Hello ${username}`);
+// do{
+//     username = window.prompt(`Enter your name`)
+// }while(username === "" || username === null)
+
+// console.log(`Hello ${username}`);
+
+//Another example
+let loggedIn = false;
+let username;
+let passowrd;
+
+while(!loggedIn){
+    username = window.prompt(`Enter your username`);
+    passowrd = window.prompt(`Enter your password`);
+}
