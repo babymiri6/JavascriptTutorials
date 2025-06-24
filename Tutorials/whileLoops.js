@@ -40,9 +40,19 @@
 //Another example
 let loggedIn = false;
 let username;
-let passowrd;
+let password;
 
 while(!loggedIn){
     username = window.prompt(`Enter your username`);
-    passowrd = window.prompt(`Enter your password`);
+    password = window.prompt(`Enter your password`);
+
+    if(username === "myUsername" && password === "myPassword"){
+        loggedIn = true;
+        console.log("You are logged in!");
+    }
+    else{
+        console.log("Invalid credential! Please try again");
+    }
 }
+
+// You can try the do while variation for this as well
